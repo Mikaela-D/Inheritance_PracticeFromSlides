@@ -18,4 +18,10 @@ public class Software extends Product{
     public void setVersion(String version) {
         this.version = version;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + // Product superclass
+                "  " + "  Version : " + version;
+    }
 }

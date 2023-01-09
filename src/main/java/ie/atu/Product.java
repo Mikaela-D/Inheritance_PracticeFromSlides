@@ -37,4 +37,9 @@ public class Product {
     public void setCode(long code) {
         this.code = code;
     }
+
+    @Override
+    public String toString() {
+        return description + " " + "  Price : " + price + " " + "  Code : " + code;
+    }
 }
