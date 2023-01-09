@@ -1,19 +1,14 @@
 package ie.atu;
 
-public class Software {
+public class Software extends Product{
     private String version;
-    private String description;
-    private double price;
-    private long code;
 
     public Software() {
     }
 
     public Software(String version, String description, double price, long code) {
+        super(description, price, code);
         this.version = version;
-        this.description = description;
-        this.price = price;
-        this.code = code;
     }
 
     public String getVersion() {
@@ -22,29 +17,5 @@ public class Software {
 
     public void setVersion(String version) {
         this.version = version;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public long getCode() {
-        return code;
-    }
-
-    public void setCode(long code) {
-        this.code = code;
     }
 }

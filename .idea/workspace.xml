@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63920f44-c89e-48c8-8ce7-6f46d584919f" name="Changes" comment="New project with Book class and temp file">
+    <list default="true" id="63920f44-c89e-48c8-8ce7-6f46d584919f" name="Changes" comment="Added Software class with code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ie/atu/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/Software.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/Software.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673222724071</updated>
-      <workItem from="1673222725574" duration="540000" />
+      <workItem from="1673222725574" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="New project with Book class and temp file">
       <created>1673222867959</created>
@@ -61,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673222867959</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added code to Book class">
+      <created>1673223288029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673223288029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Software class with code">
+      <created>1673223528013</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673223528013</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +96,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New project with Book class and temp file" />
-    <option name="LAST_COMMIT_MESSAGE" value="New project with Book class and temp file" />
+    <MESSAGE value="Added code to Book class" />
+    <MESSAGE value="Added Software class with code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Software class with code" />
   </component>
 </project>
